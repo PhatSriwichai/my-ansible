@@ -8,7 +8,7 @@
             state: present 
             update_cache: yes
             
-         - name: ensure mysql started
+        - name: ensure mysql started
           service:
             name: mysql
             state: started
